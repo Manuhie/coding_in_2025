@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuhie Kassa - Responsive Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Responsive Navigation -->
+    <nav class="navbar navbar-expand-lg bg-success-subtle py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-success fw-light">Manuhie Kassa</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container text-center py-5">
+            <h1 class="display-3 fw-bold mb-3">Frontend Developer</h1>
+            <p class="lead text-muted mb-4">Creating beautiful, responsive web experiences</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-success btn-lg px-4">View Projects</a>
+                <a href="#contact" class="btn btn-outline-success btn-lg px-4">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Portfolio</h5>
+                            <p class="card-text">A clean, responsive portfolio built with pure HTML and CSS.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="btn btn-sm btn-outline-success">View Project</a>
+                                <span class="badge bg-success">HTML/CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator</h5>
+                            <p class="card-text">A fully functional calculator with JavaScript.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="btn btn-sm btn-outline-success">View Project</a>
+                                <span class="badge bg-success">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz App</h5>
+                            <p class="card-text">Interactive quiz application with score tracking.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="btn btn-sm btn-outline-success">View Project</a>
+                                <span class="badge bg-success">React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Countdown Timer</h5>
+                            <p class="card-text">Customizable countdown timer with multiple themes.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <a href="#" class="btn btn-sm btn-outline-success">View Project</a>
+                                <span class="badge bg-success">Vue.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <div class="row mt-5">
+            <!-- Work Experience -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="info-section">
+                    <h2 class="section-title" id="experience">Work Experience</h2>
+                    
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5>Senior Frontend Developer</h5>
+                            <span class="badge bg-success align-content-center">2021-Present</span>
+                        </div>
+                        <p class="text-muted">Tech Solutions Inc.</p>
+                        <p>Developed responsive web applications using React and modern JavaScript. Collaborated with UX designers to implement pixel-perfect interfaces.</p>
+                        <a href="#" class="link-success text-decoration-none">View Projects <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                    
+                    <hr>
+                    
+                    <div>
+                        <div class="d-flex justify-content-between">
+                            <h5>Frontend Developer</h5>
+                            <span class="badge bg-success align-content-center">2019-2021</span>
+                        </div>
+                        <p class="text-muted">Digital Innovations Ltd.</p>
+                        <p>Built and maintained client websites using HTML, CSS, and JavaScript. Optimized web performance and accessibility.</p>
+                        <a href="#" class="link-success text-decoration-none">View Projects <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                    
+                    <hr>
+                    
+                    <h4 class="mt-4">Open Source Contributions</h4>
+                    <p class="fw-light">roadmap.sh</p>
+                    <p>Solved all the frontend projects and contributed to documentation improvements.</p>
+                    <a href="#" class="link-success text-decoration-none">Visit my GitHub <i class="fab fa-github ms-1"></i></a>
+                </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="col-lg-6">
+                <div class="info-section">
+                    <h2 class="section-title" id="education">Education</h2>
+                    <div class="d-flex justify-content-between mb-3">
+                        <h5>BSc in Computer Science</h5>
+                        <span class="badge bg-success align-content-center">2015-2019</span>
+                    </div>
+                    <p>Graduated with 3.8 out of 4.0 CGPA. Received Dean's Award for Academic Excellence.</p>
+                    
+                    <h5 class="mt-4">Courses Completed:</h5>
+                    <div class="d-flex flex-wrap mt-3">
+                        <span class="skill-badge">Object Oriented Programming</span>
+                        <span class="skill-badge">Data Structures & Algorithms</span>
+                        <span class="skill-badge">Web Engineering</span>
+                        <span class="skill-badge">Artificial Intelligence</span>
+                        <span class="skill-badge">Database Systems</span>
+                        <span class="skill-badge">UI/UX Design</span>
+                    </div>
+                    
+                    <h5 class="mt-4">Skills & Technologies:</h5>
+                    <div class="d-flex flex-wrap mt-3">
+                        <span class="skill-badge">HTML5/CSS3</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">React.js</span>
+                        <span class="skill-badge">Vue.js</span>
+                        <span class="skill-badge">Bootstrap</span>
+                        <span class="skill-badge">SASS</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Reviews Section -->
+        <section id="reviews" class="my-5">
+            <h2 class="section-title">Reviews from my Teachers</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <figure>
+                                <blockquote class="blockquote">
+                                    <p>"Manuhie consistently demonstrated exceptional problem-solving skills and creativity in her projects. Her attention to detail is remarkable."</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mt-3">
+                                    Dr. Sarah Johnson <cite title="Position">Professor of Computer Science</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <figure>
+                                <blockquote class="blockquote">
+                                    <p>"One of the most dedicated students I've taught. Her web development projects were always innovative and technically excellent."</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mt-3">
+                                    Prof. Michael Chen <cite title="Position">Web Engineering Instructor</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card review-card h-100">
+                        <div class="card-body">
+                            <figure>
+                                <blockquote class="blockquote">
+                                    <p>"Manuhie's ability to grasp complex concepts and apply them in practical projects was impressive. She has a bright future in tech."</p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer mt-3">
+                                    Dr. Emily Roberts <cite title="Position">Head of Department</cite>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-success bg-opacity-10 py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="lead mb-5">Have a project in mind or want to discuss opportunities? Feel free to reach out!</p>
+                    
+                    <div class="d-flex justify-content-center gap-4 mb-5">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control form-control-lg" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success btn-lg px-5">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 Manuhie Kassa. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white me-3">Terms of Service</a>
+                    <a href="#" class="text-white">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

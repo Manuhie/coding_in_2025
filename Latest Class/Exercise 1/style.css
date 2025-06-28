@@ -1,0 +1,68 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+* p, h2, h3, li, a{
+    color: white;
+}
+.contain{
+    display: flex;
+    height: 70vh
+}
+section {
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(128, 55, 128);
+}
+article {
+    width: 60%;
+    padding: 20px;
+    background-color: rgb(89, 192, 89);
+}
+aside{
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(128, 55, 128);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: orange;
+    font-weight: bold;
+    font-size: medium;
+    height: 10vh;
+    padding: 10px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: orange;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    height: 15vh;
+    padding: 10px;
+}
+header p{
+    font-family: cursive;
+}
+.icon{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/20/User-icon-Graphics-70077892-1-1-580x387.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.hee {
+    background-image: url(https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg);
+    margin: 8px 0;
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+    background-size: cover;
+}

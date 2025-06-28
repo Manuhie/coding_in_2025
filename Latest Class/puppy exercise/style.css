@@ -1,0 +1,98 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(0, 63, 180);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    font-weight: 700;
+}
+.wide {
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/banner-puppies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle {
+    /* margin: 5vh; */
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.middle .pic1 {
+    background-image: url(images/puppy-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5vh;
+    width: 15%;
+    height: 30vh;
+}
+.middle .pic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+    background-color: palevioletred;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5vh;
+    width: 15%;
+    height: 30vh;
+}
+.middle .pic3 {
+    background-image: url(images/puppy-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5vh;
+    width: 15%;
+    height: 30vh;
+}
+.more {
+    text-align: center;
+    padding: 30px;
+    font-size: x-large;
+    font-weight: 600;
+} 
+.lower {
+    /* margin: 5vh; */
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.lower .pic1 {
+    background-image: url(images/puppy-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5vh;
+    width: 20%;
+    height: 60vh;
+}
+.lower .pic2 {
+    background-image: url(images/puppy-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5vh;
+    width: 20%;
+    height: 60vh;
+}
+footer {
+    background-color: rgb(0, 63, 180);
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    font-weight: 700;
+}

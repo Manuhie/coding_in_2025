@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: .3s;
+}
+header{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.contain ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contain{
+    width: 75%;
+}
+.contain a{
+    opacity: 70%;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+.contain a:hover{
+    opacity: 100%;
+    text-shadow: 
+    0 0 20px white,
+    0 0 25px white;
+}
+.contain img{
+    fill: white;
+    width: 18px;
+    height: auto;
+}
+.part1 {
+    background-color: #fafafa;
+    padding: .7cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1 .inchy{
+    font-weight: 300;
+}
+.part1 .macp{
+    font-size: 350%;
+    font-weight: 700;
+}
+.part1 .best{
+    font-size: 250%;
+    font-weight: 340;
+}
+.part1 .links{
+    padding: 1%;
+}
+.part1 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part1 a:hover{
+    color: black;
+}
+.part1 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part2 {
+    padding: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: url(images-used/home/iphone11-pro-bg.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part2 .pro11{
+    padding-bottom: 2vh;
+    color: white;
+    font-size: 3.4em;
+    font-weight: 600;
+}
+.part2 .procd{
+    padding-bottom: 2vh;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.part2 .price{
+    padding-bottom: 4vh;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+.part2 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part2 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part2 a:hover{
+    color: grey;
+}
+.part3 {
+    padding: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: url(images-used/home/iphone11-bg.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part3 .pro11{
+    padding-bottom: 2vh;
+    color: rgb(0, 0, 0);
+    font-size: 3.4em;
+    font-weight: 600;
+}
+.part3 .procd{
+    padding-bottom: 2vh;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.part3 .price{
+    padding-bottom: 4vh;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+.part3 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part3 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part3 a:hover{
+    color: grey;
+}
+.part4{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+    width: 100%;
+    height: 100vh;
+}
+.part4 .left{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: url(images-used/home/watch-series-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part4 .left .logo{
+    height: 10%;
+    width: 40%;
+    background-image: url(images-used/icons/watch-series5-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 4vh;
+}
+.part4 .left .text{
+    font-size: 1.2em;font-weight: 500;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.part4 .right{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: url(images-used/home/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part4 .right .logo{
+    height: 10%;
+    width: 40%;
+    background-image: url(images-used/icons/apple-card-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 4vh;
+}
+.part4 .right .text{
+    font-size: 1.2em;font-weight: 500;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.part4 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part4 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part4 a:hover{
+    color: grey;
+}
+.part5{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+    width: 100%;
+    height: 100vh;
+}
+.part5 .left{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh 10vh 4vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images-used/home/apple-tv-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part5 .left .logo{
+    height: 10%;
+    width: 40%;
+    background-image: url(images-used/icons/apple-tv-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 4vh;
+}
+.part5 .left .text{
+    height: 30%;
+    width: 80%;
+    background-image: url(images-used/icons/servant-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 4vh;
+}
+.part5 .right{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: black;
+}
+.part5 .right .logo{
+    text-align: center;
+    height: 10%;
+    width: 70%;
+    color: white;
+    font-size: 3.4em;
+    font-weight: 600;
+    margin-bottom: 4vh;
+}
+.part5 .right .text{
+    color: white;
+    font-size: 1.2em;font-weight: 500;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.part5 .right .airs{
+    height: 65%;
+    width: 100%;
+    margin-top: 10vh;
+    background-image: url(images-used/home/air-pods.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.part5 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part5 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part5 a:hover{
+    color: grey;
+}
+.part6{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+    width: 100%;
+    height: 100vh;
+}
+.part6 .left{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: #fafafa;
+}
+.part6 .left .logo{
+    text-align: center;
+    height: 10%;
+    width: 70%;
+    color: rgb(0, 0, 0);
+    font-size: 3.4em;
+    font-weight: 700;
+    margin-bottom: 4vh;
+}
+.part6 .left .text{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 500;
+    /* margin-bottom: 4vh; */
+    text-align: center;
+}
+.part6 .left .text2{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.part6 .left .pic{
+    height: 65%;
+    width: 100%;
+    margin-top: 10vh;
+    background-image: url(images-used/home/macbook-pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.part6 a{
+    color: rgb(0, 182, 243);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+}
+.part6 a i{
+    font-size: .8em;
+    padding-left: 5px;
+}
+.part6 a:hover{
+    color: grey;
+}
+.part6 .right{
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: url(images-used/home/new-ipad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.part6 .right .logo{
+    height: 10%;
+    width: 40%;
+    background-image: url(images-used/icons/new-ipad-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 4vh;
+}
+.part6 .right .text{
+    font-size: 1.2em;font-weight: 500;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+.foot {
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f7;
+}
+/* .foot a{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0 7px;
+} */
+
+.foot a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.foot hr{
+    border-top: #86868b 0.1px solid;
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.part1Low {
+    color: #86868b;
+    width: 70%;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+.part1Low a{
+    font-size: 1em;
+    color: #434345;
+    text-decoration: none;
+}
+.part2Low {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    line-height: 1.9em;
+}
+.lowerDes{
+    width: 70%;
+    font-size: .8em;
+    text-align: left;
+}
+.part2Low ul{
+    list-style: none;
+    padding: 0;
+}
+.part2Low p{
+    padding-top: 2vh;
+    font-weight: 600;
+}
+.part2Low a{
+    font-size: 1em;
+    color: #515154;
+    text-decoration: none;
+}
+.lastF{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+}
+.lastF .lowLink a, .lowLink p{
+    font-size: 1em;
+    color: #515154;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.lastF .lowLink a:hover{
+    text-decoration: underline;
+}
+.lastF .county{
+    display: flex;
+    align-items: center;
+}
+.lastF .piclow{
+    margin-right: 5px;
+    background-image: url(images-used/icons/16.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
